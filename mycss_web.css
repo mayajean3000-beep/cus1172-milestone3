@@ -1,0 +1,112 @@
+header {
+  background-color: rgb(255, 214, 252);
+}
+
+.topheader {
+  text-align: center; 
+}
+body {
+  background-color: #fff0f6;
+}
+.titlewrap {
+  width: fit-content;
+  margin: 0 auto;
+}
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: none;
+  height: 8px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+header {
+  background-color: rgb(255, 214, 252);
+}
+
+a {
+  color: rgb(255, 0, 251)
+}
+
+a:hover {
+  color: red;
+}
+img {
+  border-radius: 15px;
+}
+
+table, th, td {
+  margin-top: 15px;
+}
+
+span {
+  background-color: white;
+}
+
+form {
+  background-color: rgb(255, 214, 252);
+  padding: 15px;
+  
+}
+.p-3.border { margin-bottom: 5px; }
+
+ul {
+  list-style-type: none;
+}
+li::before {
+  content: "♥ ";
+  color: rgb(255, 0, 251);
+}
+#contact {
+  background-color: white;
+}
+
+@media print {
+  body {
+    background-color: #fff0f6;
+  }
+}
+@media print {
+  h1 {
+    font-size: 20px;
+  }
+}
+.container { display: block; }
+.text {
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: monospace;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 3s steps(35) forwards,
+    cursor .4s step-end infinite alternate;
+}
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% { border-color: transparent }
+}
